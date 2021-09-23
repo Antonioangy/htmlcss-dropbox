@@ -30,6 +30,7 @@ li{
 .topsx{
     float: left;
     
+    
 }
 
 .topdx{
@@ -45,4 +46,11 @@ li{
     height: 80vh;
     background-color: lightblue;
     padding: 20px;
+}
+
+.text {
+    font-size: 30px;
+    text-align: center;
+    
+    
 }
