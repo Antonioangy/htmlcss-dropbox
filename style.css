@@ -6,17 +6,21 @@
 }
 
 /* inizio nav pagina */
-
-nav{
-    width: 100%;
-    height: 70px;
-    background-color: rgb(164, 167, 37);
-    margin: 0 auto;
+header{
     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
 }
 
-.logo{
-    padding: 20px;
+header ul li {
+    padding: 20px 25px;
+
+}
+
+header img{
+    padding-top: 15px;
     
 }
 
@@ -27,16 +31,22 @@ li{
     
 }
 
-.topsx{
+.menusx{
     float: left;
+    width: 50%;
     
     
 }
 
-.topdx{
+.menudx{
     float: right;
 }
 
+.quadratoblu {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
 
 
 
@@ -46,11 +56,38 @@ li{
     height: 80vh;
     background-color: lightblue;
     padding: 20px;
+    margin-top: 70px;
+    
 }
 
 .text {
     font-size: 30px;
-    text-align: center;
+    width: 80%;
+    padding: 100px;
     
     
+}
+
+.descrizione{
+    width: 600px;
+    font-size: 25px;
+    margin-top: 50px;
+    
+}
+
+p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.fa-arrow-down {
+    margin-top: 30px;
+    
+}
+
+#jumbo {
+    height: 800px;
+    position: relative;
+    left: 700px;
+    bottom: 390px;
 }
