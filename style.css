@@ -106,13 +106,16 @@ p {
     width: 100%;
     height: 2000px;
     background-color: white;
+    margin-top: 300px;
 }
 
 #centratura {
     font-size: 30px;
-    padding: 300px;
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
+}
+#periodo-abbonamento{
+    margin-bottom: 40px;
 }
 
 h2 {
@@ -146,7 +149,7 @@ h2 {
     border-bottom: 2px solid grey;
     border-right: 2px solid grey;
     border-left: 2px solid grey;
-    height: 1000px;
+    height: 900px;
 }
 
 
