@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* inizio nav pagina */
@@ -52,6 +53,8 @@ li{
 
 /* fine parte nav pagina */
 
+/* inizio primo container */
+
 #container-intro {
     height: 80vh;
     background-color: lightblue;
@@ -72,12 +75,18 @@ li{
     width: 600px;
     font-size: 25px;
     margin-top: 50px;
+    margin-bottom: 30px;
     
 }
 
-p{
+a {
     font-size: 20px;
     margin-top: 10px;
+    text-decoration: none;
+}
+p {
+    font-size: 20px;
+    margin-top: 20px;
 }
 
 .fa-arrow-down {
@@ -91,3 +100,19 @@ p{
     left: 700px;
     bottom: 390px;
 }
+/* fine primo container */
+
+#container-acquisto {
+    width: 100%;
+    height: 2000px;
+    background-color: rgb(183, 121, 185);
+}
+
+#centratura {
+    font-size: 30px;
+    padding: 300px;
+    font-size: 30px;
+}
+#centratura {
+    width: 90%;
+    margin: 0 auto;
