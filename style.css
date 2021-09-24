@@ -56,7 +56,7 @@ li{
 /* inizio primo container */
 
 #container-intro {
-    height: 80vh;
+    height: 750px;
     background-color: lightblue;
     padding: 20px;
     margin-top: 70px;
@@ -95,24 +95,76 @@ p {
 }
 
 #jumbo {
-    height: 800px;
+    height: 600px;
     position: relative;
     left: 700px;
-    bottom: 390px;
+    bottom: 420px;
 }
 /* fine primo container */
 
 #container-acquisto {
     width: 100%;
     height: 2000px;
-    background-color: rgb(183, 121, 185);
+    background-color: white;
 }
 
 #centratura {
     font-size: 30px;
     padding: 300px;
-    font-size: 30px;
-}
-#centratura {
     width: 90%;
     margin: 0 auto;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+/* inizio Offerte */
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.colonna{
+    width: 33%;
+}
+
+.fontawesome {
+    text-align: center;
+    border: 2px solid;
+    border-color: grey;
+    width: 100%;
+    padding: 20px 0;
+    font-size: 30px;
+    
+}
+
+.offerta-singolo {
+    border-bottom: 2px solid grey;
+    border-right: 2px solid grey;
+    border-left: 2px solid grey;
+    height: 1000px;
+}
+
+
+h3{ font-size: 30px;
+
+}
+
+
+.acquista{
+    text-decoration: underline;
+    color: blue;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+
+.check{
+    border-bottom: 10px;
+}
