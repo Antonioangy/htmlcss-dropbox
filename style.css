@@ -136,9 +136,7 @@ h2 {
     float: left;
 }
 
-.mx {
-    margin: 0 5%;
-}
+
 
 .fontawesome {
     text-align: center;
@@ -189,16 +187,19 @@ h4 {
 #enterprise{
     height: 500px;
 }
-
-.destra{
-    float: right;
-    margin-right: 300px;
-    margin-top: -100px;
-}
-
 .soluzione{
     font-size: 15px;
 }
+
+.building{
+    text-align: center;
+    border: 2px 0 solid;
+    border-color: grey;
+    width: 100%;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
 
 .bordi{
     border: 2px solid;
@@ -207,9 +208,15 @@ h4 {
     padding: 20px 0;
 }
 
+.destra {
+ float: right;
+ margin-right: 50px;
+ margin-top: -100px;
+}
+
 /* INIZIO PARTNER */
 #fotouomini{
-    width: 800px;
+    width: 100%;
 }
 
 .contattaci{
@@ -225,32 +232,51 @@ h4 {
     background-color: white;
     
 }
-.sinistra{
+.boxsinistra{
     float: left;
+    width: 50%;
 }
-.destra{
-    float: right;
+.boxdestra{
+    float: left;
+    width: 50%;
+    padding: 40px;
+    
 }
-
-.partner{
-    float: right;
-  
-}  
 
 /* FINE PARTNER */
 
 /* INIZIO OPERAZIONI DROPBOX BUSINESS */
+#business{
+    height: 1500px;
+}
 
 .littleimg{
-    width: 400px;
+    width: 100%;
 }
 
-.colonnav2{
+.block {
     float: left;
     width: 30%;
-    margin: 0 ;
+}
+.mx {
+    width: 30%;
+    margin: 0 5%;
+}
+.row{
+    margin: 50px 0;
 }
 
-.middle{
-    margin:0 5%;
+/* FINE OPERAZIONI DROPBOX BUSINESS */
+
+
+/* INIZIO TEAM CHE UTILIZZANO DROPBOX BUSINESS */  
+#teams{
+    height: 1000px;
+}
+
+.scopri{
+    text-decoration: underline;
+    color: blue;
+    border-bottom: 20px;
+
 }
