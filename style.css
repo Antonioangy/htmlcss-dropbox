@@ -104,7 +104,7 @@ p {
 
 #container-acquisto {
     width: 100%;
-    height: 2000px;
+    height: 1300px;
     background-color: white;
     margin-top: 300px;
 }
@@ -132,7 +132,12 @@ h2 {
 }
 
 .colonna{
-    width: 33%;
+    width: 30%;
+    float: left;
+}
+
+.mx {
+    margin: 0 5%;
 }
 
 .fontawesome {
@@ -149,15 +154,13 @@ h2 {
     border-bottom: 2px solid grey;
     border-right: 2px solid grey;
     border-left: 2px solid grey;
-    height: 900px;
+    height: 1000px;
+    padding: 20px;
 }
 
-
-
-h3{ font-size: 30px;
-
+h3{ 
+    font-size: 30px;
 }
-
 
 .acquista{
     text-decoration: underline;
@@ -172,10 +175,20 @@ h4 {
 .fa-check{
     border-bottom: 10px;
     color: blue;
+
+}
+
+
+.user, .folder, .pencil, .check{
+
+    margin: 15px 0;
 }
 /* fine piano di acquisto */
 
 /* inizio container ufficio vendite */
+#enterprise{
+    height: 500px;
+}
 
 .destra{
     float: right;
@@ -194,3 +207,50 @@ h4 {
     padding: 20px 0;
 }
 
+/* INIZIO PARTNER */
+#fotouomini{
+    width: 800px;
+}
+
+.contattaci{
+    height: 800px;
+}
+
+
+.contattaci .partner {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 40px;
+    border: 1px solid grey;
+    background-color: white;
+    
+}
+.sinistra{
+    float: left;
+}
+.destra{
+    float: right;
+}
+
+.partner{
+    float: right;
+  
+}  
+
+/* FINE PARTNER */
+
+/* INIZIO OPERAZIONI DROPBOX BUSINESS */
+
+.littleimg{
+    width: 400px;
+}
+
+.colonnav2{
+    float: left;
+    width: 30%;
+    margin: 0 ;
+}
+
+.middle{
+    margin:0 5%;
+}
