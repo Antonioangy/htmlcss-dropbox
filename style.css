@@ -42,10 +42,12 @@ li{
 .menudx{
     float: right;
 }
+a{
+    color: white;
+}
 
 .quadratoblu {
     background-color: blue;
-    color: white;
     padding: 10px;
 }
 
@@ -276,7 +278,39 @@ h4 {
 
 .scopri{
     text-decoration: underline;
-    color: blue;
-    border-bottom: 20px;
+    color: blue;  
 
 }
+
+#containerteam{
+    width: 100%;
+    height: 1000px;
+    float: left;
+}
+
+#clientsx {
+    width: 30%;
+    background-color: red;
+
+}
+
+#soprasx {
+    
+}
+
+
+
+
+
+
+
+#clientcenter{
+    width: 40%;
+    background-color: blue;
+}
+
+#clientdx {
+    width: 30px;
+    background: yellow;
+}
+
